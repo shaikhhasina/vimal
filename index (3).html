@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VMAL Home Care Products | Pure Care for a Healthy Home</title>
+<meta name="description" content="VMAL Home Care Products by Dhanisha Enterprises Pvt Ltd: toilet cleaner, bathroom cleaner, dish wash gel, floor cleaner, handwash, phenyl, washing powder, glass cleaner, mop and wiper.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#D81E1E;--gold:#F0A030;--green:#0E4A34;--deep:#082E21;--mint:#EAF4EE;--ink:#18271F}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.6;font-size:16px}
+h1,h2,h3{font-family:'Bricolage Grotesque','DM Sans',sans-serif;line-height:1.08;letter-spacing:-.02em}
+img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-style:none}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1180px;margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e6eee9}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}.nav img{height:50px;width:auto}
+.links{display:flex;gap:28px;font-weight:500;font-size:15px}.links a:hover{color:var(--red)}
+.btn{display:inline-flex;align-items:center;gap:9px;background:var(--red);color:#fff;padding:13px 26px;border-radius:12px;font-weight:700;font-size:15px;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:#b01212}.btn.gold{background:var(--gold);color:#2b1c00}.btn.gold:hover{background:#ffb347}.btn.ghost{background:transparent;border:2px solid rgba(255,255,255,.55)}
+/* hero */
+.hero{background:var(--green);color:#fff;padding:72px 0 0;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;right:-180px;top:-220px;width:620px;height:620px;border-radius:50%;border:70px solid rgba(240,160,48,.16)}
+.hero .wrap{position:relative}
+h1{font-size:clamp(40px,6.4vw,84px);font-weight:800;max-width:860px}
+.lead{font-size:clamp(17px,2vw,21px);max-width:560px;margin:22px 0 30px;color:#d4e6dc}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.trust{display:flex;gap:10px 30px;flex-wrap:wrap;margin:34px 0 46px;font-size:15px;font-weight:500;color:#e6f2ea}.trust i{color:var(--gold);margin-right:9px}
+.shelf{position:relative;margin-bottom:-70px}
+.shelf img{width:100%;border-radius:30px 30px 0 0;border:6px solid var(--gold);border-bottom:0;box-shadow:0 -10px 50px rgba(0,0,0,.25)}
+.band{background:var(--gold);color:#2b1c00;padding:14px 0 14px;margin-top:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:clamp(16px,2.4vw,24px);text-align:center;letter-spacing:.01em}
+.band span{margin:0 clamp(10px,3vw,34px)}
+/* products */
+section{padding:84px 0}
+.top{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:44px}
+h2{font-size:clamp(32px,4.6vw,56px);font-weight:800;color:var(--green);max-width:640px}.top p{max-width:380px;color:#51635a}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{--c:#1E5BC6;background:#fff;border:2px solid color-mix(in srgb,var(--c) 22%,#fff);border-radius:26px;overflow:hidden;display:flex;flex-direction:column}
+.card:nth-child(3n+2){border-radius:26px 26px 80px 26px}.card:nth-child(3n){border-radius:26px 80px 26px 26px}
+.card.big{grid-column:span 2;flex-direction:row}.card.big .ph{flex:1 1 50%;height:auto;min-height:400px}.card.big .cb{flex:1 1 50%;justify-content:center}
+.ph{height:270px;background:color-mix(in srgb,var(--c) 14%,#fff);overflow:hidden}.ph img{width:100%;height:100%;object-fit:cover}.ph.contain img{object-fit:contain;padding:12px}
+.cb{padding:24px 24px 22px;display:flex;flex-direction:column;gap:12px}
+.cb h3{font-size:24px;color:var(--c)}.card.big h3{font-size:34px}.tag{color:#51635a;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips li{background:color-mix(in srgb,var(--c) 11%,#fff);color:color-mix(in srgb,var(--c) 70%,#000);font-size:13px;font-weight:500;padding:5px 13px;border-radius:50px}
+.tog{margin-top:6px;align-self:flex-start;background:var(--c);color:#fff;border:0;border-radius:10px;padding:10px 18px;font:700 14px 'DM Sans',sans-serif;cursor:pointer}
+.tog i{margin-left:6px;transition:transform .25s}.card.open .tog i{transform:rotate(180deg)}
+.how{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s}.card.open .how{grid-template-rows:1fr}
+.how div{overflow:hidden}.how p{margin-top:2px;padding:14px 16px;background:color-mix(in srgb,var(--c) 10%,#fff);border-radius:12px;font-size:14.5px}
+/* tools */
+.tools{background:var(--mint)}.tg{display:grid;grid-template-columns:.62fr 1.38fr;gap:56px;align-items:center}
+.tg img{border-radius:200px 200px 28px 28px;max-height:560px;margin:auto;border:6px solid #fff;box-shadow:0 24px 50px -20px rgba(8,46,33,.45)}
+.tool{padding:26px 0;border-top:3px solid var(--green)}.tool+.tool{border-color:var(--gold)}
+.tool h3{font-size:clamp(24px,3vw,36px);color:var(--green);margin-bottom:8px}.tool p{max-width:560px;color:#3f5248}.tool .care{margin-top:10px;font-weight:700;color:var(--red);font-size:14.5px}
+/* about */
+.about{background:var(--deep);color:#fff}.about h2{color:#fff}.ag{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.about p{color:#c4d8cd;margin:18px 0;max-width:540px}.mission{border-left:5px solid var(--gold);padding:6px 0 6px 20px;color:#fff;font-size:18px;max-width:540px}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:16px}.photos img{border-radius:22px;height:100%;min-height:300px;object-fit:cover}.photos img+img{margin-top:44px}
+/* footer */
+footer{background:var(--red);color:#fff;padding:60px 0 26px}.fg{display:grid;grid-template-columns:1fr 1.3fr;gap:44px;align-items:center}
+footer img{height:76px;width:auto;background:#fff;padding:10px 16px;border-radius:14px}footer .big{font-family:'Bricolage Grotesque',sans-serif;font-size:30px;font-weight:800;margin-top:18px;line-height:1.1}
+footer li{display:flex;gap:14px;margin:12px 0;font-size:16px}footer li i{margin-top:6px;color:#ffd58a}footer a:hover{text-decoration:underline}
+.copy{font-size:13px;opacity:.85;margin-top:40px;padding-top:18px;border-top:1px solid rgba(255,255,255,.3)}
+@media(max-width:860px){.links{display:none}.grid{grid-template-columns:1fr}.card.big{grid-column:auto;flex-direction:column}.card.big .ph{min-height:300px}.card:nth-child(n){border-radius:26px}.tg,.ag,.fg{grid-template-columns:1fr}.tg{gap:30px}section{padding:60px 0}.shelf{margin-bottom:-40px}.photos img+img{margin-top:0}}
+@media(max-width:560px){.hero{padding-top:48px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header><div class="wrap nav"><a href="#home" aria-label="VMAL home"><img src="images/logo.jpg" alt="VMAL Home Care Products"></a>
+<nav class="links" aria-label="Main"><a href="#products">Products</a><a href="#tools">Mop &amp; wiper</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="#contact"><i class="fa-solid fa-phone"></i> Enquire now</a></div></header>
+
+<main id="home"><div class="hero"><div class="wrap">
+<h1>Pure care for a healthy home.</h1>
+<p class="lead">Safe, natural and effective cleaning for your family: from toilet and bathroom to dishes, floors, laundry and glass.</p>
+<div class="cta"><a class="btn gold" href="#products"><i class="fa-solid fa-bag-shopping"></i> See all products</a><a class="btn ghost" href="#contact">Talk to us</a></div>
+<ul class="trust"><li><i class="fa-solid fa-leaf"></i>Toxin-free formulation</li><li><i class="fa-solid fa-shield-heart"></i>Safe for your family</li><li><i class="fa-solid fa-wand-magic-sparkles"></i>Effective cleaning</li><li><i class="fa-solid fa-earth-asia"></i>Better for the planet</li></ul>
+<div class="shelf"><img src="images/hero-lineup.jpg" alt="The full VMAL range: toilet cleaner, bathroom cleaner, dish wash gel, handwash, phenyl, washing powder, glass cleaner, mop and wiper"></div>
+</div></div>
+<div class="band" style="padding-top:90px"><span>Clean</span><span>Fresh</span><span>Hygienic</span><span>Effective</span></div>
+
+<section id="products"><div class="wrap"><div class="top"><h2>Eight cleaners for every corner of the house</h2><p>Tap "How to use" on any product for quick directions.</p></div>
+<div class="grid">
+<article class="card big" style="--c:#1E5BC6"><div class="ph "><img src="images/toilet-cleaner.jpg" alt="VMAL Advanced Toilet Cleaner" loading="lazy"></div><div class="cb"><h3>Advanced Toilet Cleaner</h3><p class="tag">Powerful cleaning for a germ-free toilet. 350ml, 9.9X strength.</p><ul class="chips"><li>Removes limescale, rust &amp; tough stains</li><li>Deep coverage under the rim</li><li>Fresh, clean fragrance</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Apply along the bowl rim, leave for 10–15 minutes, brush lightly and flush.</p></div></div></div></article>
+<article class="card " style="--c:#D81E1E"><div class="ph "><img src="images/bathroom-cleaner.jpg" alt="VMAL All-Surface Bathroom Cleaner" loading="lazy"></div><div class="cb"><h3>All-Surface Bathroom Cleaner</h3><p class="tag">Removes soap scum, hard water spots and grime.</p><ul class="chips"><li>Fast-acting on tiles and basins</li><li>Safe for ceramic and chrome</li><li>Slows dirt build-up</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Spray on the surface, leave for 2 minutes, scrub gently and rinse.</p></div></div></div></article>
+<article class="card " style="--c:#C98F00"><div class="ph "><img src="images/dish-wash-gel.jpg" alt="VMAL Ultra Dish Wash Gel" loading="lazy"></div><div class="cb"><h3>Ultra Dish Wash Gel</h3><p class="tag">Tough on grease, gentle on hands. Lemon fragrance.</p><ul class="chips"><li>Concentrated formula</li><li>High foam, shiny utensils</li><li>pH balanced</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Apply directly on a wet sponge, or dilute 1 teaspoon in water.</p></div></div></div></article>
+<article class="card " style="--c:#7A3FB0"><div class="ph "><img src="images/floor-cleaner.jpg" alt="VMAL Refreshing Floor Cleaner" loading="lazy"></div><div class="cb"><h3>Refreshing Floor Cleaner</h3><p class="tag">Deep clean with no sticky residue.</p><ul class="chips"><li>Cleans &amp; shines</li><li>Suits all floor types</li><li>Long-lasting fragrance</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Mix 15 ml (one capful) in 4 litres of water for regular mopping.</p></div></div></div></article>
+<article class="card " style="--c:#D63A76"><div class="ph "><img src="images/handwash.jpg" alt="VMAL Creamy Handwash" loading="lazy"></div><div class="cb"><h3>Creamy Handwash</h3><p class="tag">Soft on skin, effective every day.</p><ul class="chips"><li>Rich moisturising lather</li><li>Gentle on hands</li><li>Removes grease &amp; impurities</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Pump a small amount on wet hands, rub for 20 seconds and rinse.</p></div></div></div></article>
+<article class="card " style="--c:#3E8E41"><div class="ph "><img src="images/phenyl.jpg" alt="VMAL Premium Disinfectant Phenyl" loading="lazy"></div><div class="cb"><h3>Premium Disinfectant Phenyl</h3><p class="tag">Deep clean, odour control and floor care.</p><ul class="chips"><li>Disinfects surfaces</li><li>Neutralises foul odours</li><li>For floors &amp; drains</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Add a few drops in water for mopping, or use undiluted in outdoor drains.</p></div></div></div></article>
+<article class="card " style="--c:#1E7FD0"><div class="ph contain"><img src="images/washing-powder.jpg" alt="VMAL Power-Wash Washing Powder" loading="lazy"></div><div class="cb"><h3>Power-Wash Washing Powder</h3><p class="tag">Bright clothes, powerful cleaning.</p><ul class="chips"><li>Lifts deep dirt</li><li>Keeps whites bright</li><li>Protects coloured clothes</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Use 1 scoop for regular loads and 1.5 scoops for heavily soiled clothes.</p></div></div></div></article>
+<article class="card " style="--c:#1E5BC6"><div class="ph contain"><img src="images/glass-cleaner.jpg" alt="VMAL Streak-Free Glass Cleaner" loading="lazy"></div><div class="cb"><h3>Streak-Free Glass Cleaner</h3><p class="tag">Crystal clear, spotless shine.</p><ul class="chips"><li>Quick-drying</li><li>Removes fingerprints and dust</li><li>No cloudy streaks</li></ul><button class="tog" aria-expanded="false">How to use <i class="fa-solid fa-chevron-down"></i></button><div class="how"><div><p>Spray directly on the surface and wipe with a clean microfibre cloth.</p></div></div></div></article>
+</div></div></section>
+
+<section class="tools" id="tools"><div class="wrap"><div class="tg"><img src="images/cleaning-tools.jpg" alt="VMAL floor mop and floor wiper" loading="lazy"><div>
+<h2 style="margin-bottom:26px">Tools that finish the job</h2>
+<div class="tool"><h3>Heavy-duty floor cleaning mop</h3><p>Highly absorbent cotton loop head on a sturdy steel handle. The 360° clip mechanism reaches every corner and picks up loose hair and fine dust.</p><p class="care"><i class="fa-solid fa-droplet"></i> Rinse and hang to dry after every use.</p></div>
+<div class="tool"><h3>High-efficiency floor wiper</h3><p>Wide blade with top-grade flexible rubber clears stagnant water in one stroke. Made for bathrooms, kitchens, balconies and wet patios.</p><p class="care"><i class="fa-solid fa-droplet"></i> Store flat or hang it to keep the blade straight.</p></div>
+</div></div></div></section>
+
+<section class="about" id="about"><div class="wrap ag"><div><h2>Cleaner homes, happier families</h2>
+<p>We believe a clean home is the foundation of a healthy and happy life. VMAL products are made to clean effectively, leave a fresh finish and protect your family and surroundings every day.</p>
+<p class="mission">Our mission: effective home care products that protect your family while being mindful of the environment.</p>
+<p>VMAL is developed by <b>Dhanisha Enterprises Pvt Ltd (DEPL)</b> with a focus on practical, reliable cleaning solutions for homes.</p></div>
+<div class="photos"><img src="images/office-1.jpg" alt="VMAL office reception" loading="lazy"><img src="images/office-2.jpg" alt="VMAL office area" loading="lazy"></div></div></section></main>
+
+<footer id="contact"><div class="wrap"><div class="fg"><div><img src="images/logo.jpg" alt="VMAL"><p class="big">Everyday care for a cleaner home.</p></div>
+<ul><li><i class="fa-solid fa-building"></i><b>Dhanisha Enterprises Pvt Ltd (DEPL)</b></li>
+<li><i class="fa-solid fa-globe"></i><a href="https://www.vmal.in">www.vmal.in</a></li>
+<li><i class="fa-solid fa-envelope"></i><a href="mailto:vmalhomecareproducts@gmail.com">vmalhomecareproducts@gmail.com</a></li>
+<li><i class="fa-solid fa-location-dot"></i>At Post Talasari (Paraspada), Talasari Udhva Road, Palghar – 401606</li></ul></div>
+<p class="copy">&copy; <span id="y"></span> Dhanisha Enterprises Pvt Ltd. All rights reserved.</p></div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();
+document.querySelectorAll('.tog').forEach(b=>b.addEventListener('click',()=>{const c=b.closest('.card');const o=c.classList.toggle('open');b.setAttribute('aria-expanded',o)}))</script>
+</body></html>
